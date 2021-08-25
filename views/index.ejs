@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title><%= title %></title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="header-title">Welcome in blockchain-bank-machine</h1>
+  </header>
+  <main class='main'>
+    <section class="main-left-section">
+      <ul id="users">
+        <% users.forEach(function(user){ %>
+          <li><%= user.name %> &lt;<%= user.email %>&gt;</li>
+        <% }) %>
+      </ul>
+    </section>
+    <section class="main-right-section">
+
+    </section>
+  </main>
+</body>
+
+</html>
+
+
+<!--  /*<%= %>*/ -->
