@@ -32,13 +32,18 @@ body {
 .main-left-section {
   width: 60%;
   height: 90%;
-  border: 3px solid blue;
+  background: #EAEAEA;
 }
 
 .main-right-section {
   width: 30%;
   height: 90%;
-  border: 3px solid red;
+  background: #EAEAEA;
+}
+
+.main-left-section {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* dolar color: 31D22E */
